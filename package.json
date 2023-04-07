@@ -1,0 +1,14 @@
+{
+  "name": "4-natours",
+  "version": "1.0.0",
+  "description": "making app by using JS, ExpressJs, NodeJs and mongo db",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jagannath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
