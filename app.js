@@ -6,6 +6,7 @@ const userRouter = require('./routes/userRoute');
 
 /**Middle-Ware */
 app.use(express.json());
+app.use(express.static(`${__dirname}/public`)); //THis middleware is use for provide static file
 
 /**ROUTES**/
 app.use('/api/v1/tours', tourRouter); //(LEC-62)
